@@ -1,47 +1,77 @@
-     <!DOCTYPE html>
-     <html lang="en">
-     <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Your Landing Page</title>
-         <style>
-             body {
-                 font-family: Arial, sans-serif;
-                 margin: 0;
-                 padding: 0;
-                 background-color: #f4f4f4;
-                 text-align: center;
-             }
-             header {
-                 background-color: #333;
-                 color: #fff;
-                 padding: 10px 0;
-             }
-             img.logo {
-                 max-width: 150px;
-                 margin: 20px 0;
-             }
-             .content {
-                 padding: 20px;
-             }
-             .cta-button {
-                 background-color: #007BFF;
-                 color: #fff;
-                 padding: 10px 20px;
-                 text-decoration: none;
-                 border-radius: 5px;
-             }
-         </style>
-     </head>
-     <body>
-         <header>
-             <img src="images/logo.png" alt="Logo" class="logo">
-         </header>
-         <div class="content">
-             <h1>Welcome to Our Landing Page</h1>
-             <p>Here is some introductory text about your product or service.</p>
-             <a href="#" class="cta-button">Get Started</a>
-         </div>
-     </body>
-     </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P6 Wizard Landing Page</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #6a0dad; /* Purple */
+            color: #fff;
+            padding: 20px 0;
+            position: relative;
+        }
+        img.logo {
+            max-width: 150px;
+            margin: 20px 0;
+        }
+        .content {
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+        .cta-button {
+            background-color: #6a0dad; /* Purple */
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #5a0ca0; /* Darker Purple */
+        }
+        .wizard-theme {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+        }
+        .p6-theme {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #6a0dad; /* Purple */
+        }
+        @media (max-width: 600px) {
+            .content {
+                padding: 20px;
+            }
+            .cta-button {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <div class="wizard-theme">🧙‍♂️</div> <!-- Wizard Icon -->
+    </header>
+    <div class="content">
+        <h1>Welcome to the P6 Wizard</h1>
+        <p>Master your project scheduling with our magical tools.</p>
+        <div class="p6-theme">Plan, Schedule, and Control with ease!</div>
+        <a href="#" class="cta-button">Get Started</a>
+    </div>
+</body>
+</html>
      
